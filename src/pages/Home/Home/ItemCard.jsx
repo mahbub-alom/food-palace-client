@@ -7,7 +7,7 @@ const ItemCard = ({ singleItem }) => {
     <div>
       <div className="card  h-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
-          <img  src={image} alt="Food" className="rounded-xl h-96" />
+          <img src={image} alt="Food" className="rounded-xl h-96" />
         </figure>
         <h1 className="bg-black text-white px-2 absolute right-16 top-14 rounded">
           $ {price}
@@ -18,7 +18,9 @@ const ItemCard = ({ singleItem }) => {
             <span className="text-xl font-bold">Chef:</span>
             {chef_name}
           </p>
-          <p>{description}</p>
+          <p>
+            {description.length > 15 ? description.slice(0, 15) : description}
+          </p>
           <div className="card-actions">
             <button className="btn btn-primary uppercase   mt-4">
               Buy Now

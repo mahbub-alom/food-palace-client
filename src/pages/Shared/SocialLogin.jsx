@@ -1,12 +1,15 @@
 import React from "react";
 import { FaGoogle } from "react-icons/fa";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const SocialLogin = () => {
   const { googleLogin } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/";
 
   const handleGoogleSignUp = () => {
     googleLogin()
@@ -19,7 +22,7 @@ const SocialLogin = () => {
           showConfirmButton: false,
           timer: 1500,
         });
-        navigate("/");
+        navigate(from, { replace: true });
       })
       .catch((error) => {
         console.log(error);

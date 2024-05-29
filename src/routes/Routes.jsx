@@ -10,11 +10,14 @@ import User from "../pages/Home/Dashboard/User";
 import Update from "../pages/Home/Dashboard/Update";
 import AddProducts from "../pages/Home/Dashboard/AddProducts";
 import DetailsPage from "../pages/Home/Dashboard/DetailsPage";
+import Error from "../pages/Shared/Error";
+import PrivateRoutes from "./PrivateRoutes";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
@@ -36,7 +39,12 @@ const router = createBrowserRouter([
   },
   {
     path: "dashboard",
-    element: <Dashboard />,
+    element: (
+      <PrivateRoutes>
+        <Dashboard />
+      </PrivateRoutes>
+    ),
+    errorElement: <Error />,
     children: [
       {
         path: "AllProducts",
