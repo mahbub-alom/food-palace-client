@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Helmet } from "react-helmet-async";
 import Swal from "sweetalert2";
 import useAuth from "../../Hooks/useAuth";
+import SocialLogin from "./SocialLogin";
 
 const Register = () => {
   const { createUser } = useAuth();
@@ -142,6 +143,7 @@ const Register = () => {
           </h1>
           <div className="divider">or sign in with</div>
           <div className="flex gap-5 justify-center cursor-pointer"></div>
+          <SocialLogin/>
         </div>
       </div>
     </div>
