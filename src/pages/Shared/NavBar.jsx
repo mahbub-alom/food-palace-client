@@ -1,8 +1,26 @@
 import React from "react";
 import logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
+import Swal from "sweetalert2";
 
 const NavBar = () => {
+  const { users, logOut } = useAuth();
+  const handleLogOut = () => {
+    logOut()
+      .then(
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "User LogOut successfully",
+          showConfirmButton: false,
+          timer: 1500,
+        })
+      )
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
   const navItems = (
     <>
       <li>
@@ -11,12 +29,18 @@ const NavBar = () => {
       <li>
         <Link to="/dashboard">Dashboard</Link>
       </li>
-      <li>
-        <Link to="/login">Login</Link>
-      </li>
+      {users ? (
+        <li>
+          <Link onClick={handleLogOut}>LogOut</Link>
+        </li>
+      ) : (
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+      )}
     </>
   );
-//   navbar fixed z-10 bg-opacity-30 text-white max-w-screen-xl bg-base-100
+  //   navbar fixed z-10 bg-opacity-30 text-white max-w-screen-xl bg-base-100
   return (
     <div className="navbar fixed z-10 bg-opacity-50 max-w-screen-xl bg-base-100">
       <div className="navbar-start">
@@ -52,7 +76,11 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <div className="avatar">
+          <div className="w-14 rounded-full">
+            {users && <img title={users?.displayName} src={users?.photoURL} />}
+          </div>
+        </div>
       </div>
     </div>
   );

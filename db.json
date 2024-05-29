@@ -1,67 +1,505 @@
 {
   "restaurant_name": "Gourmet Bistro",
-  "menu": {
-    "Appetizer": [
-      {
-        "id": 1,
-        "item": "Caesar Salad",
-        "chef_name": "Chef Maria",
-        "price": 8.99,
-        "image": "https://example.com/images/caesar_salad.jpg",
-        "discount": 0.05,
-        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese."
-      }
-    ],
-    "Main Course": [
-      {
-        "id": 2,
-        "item": "Margherita Pizza",
-        "chef_name": "Chef Giovanni",
-        "price": 12.99,
-        "image": "https://example.com/images/margherita_pizza.jpg",
-        "discount": 0.1,
-        "description": "Classic pizza topped with fresh tomatoes, mozzarella, and basil."
-      },
-      {
-        "id": 3,
-        "item": "Spaghetti Carbonara",
-        "chef_name": "Chef Luigi",
-        "price": 14.49,
-        "image": "https://example.com/images/spaghetti_carbonara.jpg",
-        "discount": 0.15,
-        "description": "Spaghetti with creamy egg, cheese, pancetta, and pepper sauce."
-      },
-      {
-        "id": 4,
-        "item": "Grilled Chicken Sandwich",
-        "chef_name": "Chef Alex",
-        "price": 10.99,
-        "image": "https://example.com/images/grilled_chicken_sandwich.jpg",
-        "discount": 0.2,
-        "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo on a toasted bun."
-      }
-    ],
-    "Dessert": [
-      {
-        "id": 5,
-        "item": "Chocolate Lava Cake",
-        "chef_name": "Chef Sophie",
-        "price": 6.99,
-        "image": "https://example.com/images/chocolate_lava_cake.jpg",
-        "discount": 0.1,
-        "description": "Decadent chocolate cake with a molten chocolate center."
-      }
-    ],
-    "Beverage": [
-      {
-        "id": 6,
-        "item": "Iced Tea",
-        "chef_name": "Chef John",
-        "price": 2.99,
-        "image": "https://example.com/images/iced_tea.jpg",
-        "discount": 0,
-        "description": "Refreshing iced tea brewed with premium tea leaves."
-      }
-    ]
-  }
+  "menu": [
+    {
+      "id": 1,
+      "item": "Caesar Salad",
+      "chef_name": "Chef Maria",
+      "price": 8.99,
+      "image": "https://example.com/images/caesar_salad.jpg",
+      "discount": 0.05,
+      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 2,
+      "item": "Margherita Pizza",
+      "chef_name": "Chef Giovanni",
+      "price": 12.99,
+      "image": "https://example.com/images/margherita_pizza.jpg",
+      "discount": 0.1,
+      "description": "Classic pizza topped with fresh tomatoes, mozzarella, and basil.",
+      "category": "Main Course"
+    },
+    {
+      "id": 3,
+      "item": "Spaghetti Carbonara",
+      "chef_name": "Chef Luigi",
+      "price": 14.49,
+      "image": "https://example.com/images/spaghetti_carbonara.jpg",
+      "discount": 0.15,
+      "description": "Spaghetti with creamy egg, cheese, pancetta, and pepper sauce.",
+      "category": "Main Course"
+    },
+    {
+      "id": 4,
+      "item": "Grilled Chicken Sandwich",
+      "chef_name": "Chef Alex",
+      "price": 10.99,
+      "image": "https://example.com/images/grilled_chicken_sandwich.jpg",
+      "discount": 0.2,
+      "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo on a toasted bun.",
+      "category": "Main Course"
+    },
+    {
+      "id": 5,
+      "item": "Chocolate Lava Cake",
+      "chef_name": "Chef Sophie",
+      "price": 6.99,
+      "image": "https://example.com/images/chocolate_lava_cake.jpg",
+      "discount": 0.1,
+      "description": "Decadent chocolate cake with a molten chocolate center.",
+      "category": "Dessert"
+    },
+    {
+      "id": 6,
+      "item": "Iced Tea",
+      "chef_name": "Chef John",
+      "price": 2.99,
+      "image": "https://example.com/images/iced_tea.jpg",
+      "discount": 0,
+      "description": "Refreshing iced tea brewed with premium tea leaves.",
+      "category": "Beverage"
+    },
+    {
+      "id": 7,
+      "item": "Bruschetta",
+      "chef_name": "Chef Maria",
+      "price": 6.99,
+      "image": "https://example.com/images/bruschetta.jpg",
+      "discount": 0.1,
+      "description": "Grilled bread topped with fresh tomatoes, garlic, and basil.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 8,
+      "item": "Lemonade",
+      "chef_name": "Chef John",
+      "price": 3.49,
+      "image": "https://example.com/images/lemonade.jpg",
+      "discount": 0.05,
+      "description": "Refreshing lemonade made with freshly squeezed lemons.",
+      "category": "Beverage"
+    },
+    {
+      "id": 9,
+      "item": "Mushroom Soup",
+      "chef_name": "Chef Maria",
+      "price": 5.99,
+      "image": "https://example.com/images/mushroom_soup.jpg",
+      "discount": 0.1,
+      "description": "Creamy mushroom soup garnished with chives.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 10,
+      "item": "Chicken Alfredo",
+      "chef_name": "Chef Luigi",
+      "price": 16.99,
+      "image": "https://example.com/images/chicken_alfredo.jpg",
+      "discount": 0.15,
+      "description": "Fettuccine pasta with grilled chicken in creamy Alfredo sauce.",
+      "category": "Main Course"
+    },
+    {
+      "id": 11,
+      "item": "Tiramisu",
+      "chef_name": "Chef Sophie",
+      "price": 7.99,
+      "image": "https://example.com/images/tiramisu.jpg",
+      "discount": 0.1,
+      "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "category": "Dessert"
+    },
+    {
+      "id": 12,
+      "item": "Cappuccino",
+      "chef_name": "Chef Maria",
+      "price": 4.99,
+      "image": "https://example.com/images/cappuccino.jpg",
+      "discount": 0.05,
+      "description": "Espresso mixed with hot frothed milk and a sprinkle of cocoa powder.",
+      "category": "Beverage"
+    },
+    {
+      "id": 13,
+      "item": "Caprese Salad",
+      "chef_name": "Chef Giovanni",
+      "price": 9.99,
+      "image": "https://example.com/images/caprese_salad.jpg",
+      "discount": 0.05,
+      "description": "Fresh mozzarella cheese, tomatoes, and basil drizzled with balsamic glaze.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 14,
+      "item": "Pesto Pasta",
+      "chef_name": "Chef Luigi",
+      "price": 13.99,
+      "image": "https://example.com/images/pesto_pasta.jpg",
+      "discount": 0.1,
+      "description": "Pasta tossed in homemade pesto sauce with pine nuts and Parmesan cheese.",
+      "category": "Main Course"
+    },
+    {
+      "id": 15,
+      "item": "Cheesecake",
+      "chef_name": "Chef Sophie",
+      "price": 8.99,
+      "image": "https://example.com/images/cheesecake.jpg",
+      "discount": 0.1,
+      "description": "Creamy cheesecake with a graham cracker crust, topped with your choice of fruit sauce.",
+      "category": "Dessert"
+    },
+    {
+      "id": 16,
+      "item": "Mojito",
+      "chef_name": "Chef John",
+      "price": 7.49,
+      "image": "https://example.com/images/mojito.jpg",
+      "discount": 0.05,
+      "description": "Classic cocktail made with white rum, mint, lime juice, soda water, and sugar.",
+      "category": "Beverage"
+    },
+    {
+      "id": 17,
+      "item": "Spinach Artichoke Dip",
+      "chef_name": "Chef Maria",
+      "price": 7.99,
+      "image": "https://example.com/images/spinach_artichoke_dip.jpg",
+      "discount": 0.1,
+      "description": "Creamy dip made with spinach, artichokes, and melted cheese, served with tortilla chips.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 18,
+      "item": "Beef Burger",
+      "chef_name": "Chef Alex",
+      "price": 11.99,
+      "image": "https://example.com/images/beef_burger.jpg",
+      "discount": 0.1,
+      "description": "Juicy beef patty topped with lettuce, tomato, onion, pickles, and mayo on a sesame seed bun.",
+      "category": "Main Course"
+    },
+    {
+      "id": 19,
+      "item": "Key Lime Pie",
+      "chef_name": "Chef Sophie",
+      "price": 6.99,
+      "image": "https://example.com/images/key_lime_pie.jpg",
+      "discount": 0.05,
+      "description": "Tangy key lime pie with a graham cracker crust, topped with whipped cream.",
+      "category": "Dessert"
+    },
+    {
+      "id": 20,
+      "item": "Margarita",
+      "chef_name": "Chef John",
+      "price": 8.49,
+      "image": "https://example.com/images/margarita.jpg",
+      "discount": 0.05,
+      "description": "Classic cocktail made with tequila, lime juice, and triple sec.",
+      "category": "Beverage"
+    },
+    {
+      "id": 21,
+      "item": "Garlic Bread",
+      "chef_name": "Chef Maria",
+      "price": 4.99,
+      "image": "https://example.com/images/garlic_bread.jpg",
+      "discount": 0.05,
+      "description": "Toasted bread slices brushed with garlic butter and herbs.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 22,
+      "item": "Beef Lasagna",
+      "chef_name": "Chef Giovanni",
+      "price": 15.99,
+      "image": "https://example.com/images/beef_lasagna.jpg",
+      "discount": 0.1,
+      "description": "Layers of pasta sheets, ground beef, marinara sauce, and melted cheese.",
+      "category": "Main Course"
+    },
+    {
+      "id": 23,
+      "item": "Apple Pie",
+      "chef_name": "Chef Sophie",
+      "price": 7.49,
+      "image": "https://example.com/images/apple_pie.jpg",
+      "discount": 0.05,
+      "description": "Homemade apple pie with flaky pastry crust, filled with cinnamon-spiced apples.",
+      "category": "Dessert"
+    },
+    {
+      "id": 24,
+      "item": "Cranberry Spritzer",
+      "chef_name": "Chef John",
+      "price": 3.99,
+      "image": "https://example.com/images/cranberry_spritzer.jpg",
+      "discount": 0.05,
+      "description": "Refreshing mocktail made with cranberry juice, soda water, and a splash of lime.",
+      "category": "Beverage"
+    },
+    {
+      "id": 25,
+      "item": "Stuffed Mushrooms",
+      "chef_name": "Chef Maria",
+      "price": 6.49,
+      "image": "https://example.com/images/stuffed_mushrooms.jpg",
+      "discount": 0.05,
+      "description": "Mushroom caps stuffed with a savory mixture of breadcrumbs, cheese, and herbs.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 26,
+      "item": "Beef Stroganoff",
+      "chef_name": "Chef Luigi",
+      "price": 17.49,
+      "image": "https://example.com/images/beef_stroganoff.jpg",
+      "discount": 0.15,
+      "description": "Tender beef strips cooked in a creamy mushroom sauce, served over egg noodles.",
+      "category": "Main Course"
+    },
+    {
+      "id": 27,
+      "item": "Banoffee Pie",
+      "chef_name": "Chef Sophie",
+      "price": 8.99,
+      "image": "https://example.com/images/banoffee_pie.jpg",
+      "discount": 0.1,
+      "description": "Indulgent dessert made with bananas, toffee, and whipped cream on a biscuit crust.",
+      "category": "Dessert"
+    },
+    {
+      "id": 28,
+      "item": "Orange Juice",
+      "chef_name": "Chef John",
+      "price": 3.49,
+      "image": "https://example.com/images/orange_juice.jpg",
+      "discount": 0.05,
+      "description": "Freshly squeezed orange juice served chilled.",
+      "category": "Beverage"
+    },
+    {
+      "id": 29,
+      "item": "Garlic Knots",
+      "chef_name": "Chef Maria",
+      "price": 5.99,
+      "image": "https://example.com/images/garlic_knots.jpg",
+      "discount": 0.05,
+      "description": "Soft, doughy knots brushed with garlic butter and sprinkled with Parmesan cheese.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 30,
+      "item": "Chicken Parmesan",
+      "chef_name": "Chef Giovanni",
+      "price": 16.99,
+      "image": "https://example.com/images/chicken_parmesan.jpg",
+      "discount": 0.15,
+      "description": "Breaded chicken cutlets topped with marinara sauce and melted mozzarella cheese.",
+      "category": "Main Course"
+    },
+    {
+      "id": 31,
+      "item": "Panna Cotta",
+      "chef_name": "Chef Sophie",
+      "price": 7.49,
+      "image": "https://example.com/images/panna_cotta.jpg",
+      "discount": 0.05,
+      "description": "Italian dessert made with sweetened cream and gelatin, served with fruit compote.",
+      "category": "Dessert"
+    },
+    {
+      "id": 32,
+      "item": "Hot Chocolate",
+      "chef_name": "Chef Maria",
+      "price": 4.99,
+      "image": "https://example.com/images/hot_chocolate.jpg",
+      "discount": 0.05,
+      "description": "Rich and creamy hot chocolate topped with whipped cream.",
+      "category": "Beverage"
+    },
+    {
+      "id": 33,
+      "item": "Crispy Calamari",
+      "chef_name": "Chef Maria",
+      "price": 9.99,
+      "image": "https://example.com/images/crispy_calamari.jpg",
+      "discount": 0.1,
+      "description": "Tender calamari rings lightly breaded and fried to golden perfection, served with marinara sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 34,
+      "item": "Beef Wellington",
+      "chef_name": "Chef Alex",
+      "price": 19.99,
+      "image": "https://example.com/images/beef_wellington.jpg",
+      "discount": 0.15,
+      "description": "Tender beef fillet coated with mushroom duxelles, wrapped in puff pastry, and baked to perfection.",
+      "category": "Main Course"
+    },
+    {
+      "id": 35,
+      "item": "Banana Split",
+      "chef_name": "Chef Sophie",
+      "price": 8.49,
+      "image": "https://example.com/images/banana_split.jpg",
+      "discount": 0.1,
+      "description": "Classic dessert with scoops of vanilla, chocolate, and strawberry ice cream topped with banana slices, chocolate sauce, whipped cream, nuts, and a cherry.",
+      "category": "Dessert"
+    },
+    {
+      "id": 36,
+      "item": "Mojito",
+      "chef_name": "Chef John",
+      "price": 7.49,
+      "image": "https://example.com/images/mojito.jpg",
+      "discount": 0.05,
+      "description": "Classic cocktail made with white rum, mint, lime juice, soda water, and sugar.",
+      "category": "Beverage"
+    },
+    {
+      "id": 37,
+      "item": "Stuffed Jalapenos",
+      "chef_name": "Chef Maria",
+      "price": 6.99,
+      "image": "https://example.com/images/stuffed_jalapenos.jpg",
+      "discount": 0.05,
+      "description": "Spicy jalapeno peppers stuffed with cream cheese and wrapped in bacon, baked until crispy.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 38,
+      "item": "Chicken Tikka Masala",
+      "chef_name": "Chef Raj",
+      "price": 15.99,
+      "image": "https://example.com/images/chicken_tikka_masala.jpg",
+      "discount": 0.1,
+      "description": "Tender chicken pieces cooked in a creamy tomato-based sauce with Indian spices.",
+      "category": "Main Course"
+    },
+    {
+      "id": 39,
+      "item": "Mango Lassi",
+      "chef_name": "Chef Priya",
+      "price": 4.99,
+      "image": "https://example.com/images/mango_lassi.jpg",
+      "discount": 0.05,
+      "description": "Refreshing yogurt-based drink blended with ripe mangoes and a hint of cardamom.",
+      "category": "Beverage"
+    },
+    {
+      "id": 40,
+      "item": "Spring Rolls",
+      "chef_name": "Chef Mei",
+      "price": 7.49,
+      "image": "https://example.com/images/spring_rolls.jpg",
+      "discount": 0.05,
+      "description": "Crispy fried rolls filled with vegetables, served with sweet chili sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 41,
+      "item": "Sushi Platter",
+      "chef_name": "Chef Kenji",
+      "price": 18.99,
+      "image": "https://example.com/images/sushi_platter.jpg",
+      "discount": 0.1,
+      "description": "Assorted sushi rolls including California, spicy tuna, and salmon avocado.",
+      "category": "Main Course"
+    },
+    {
+      "id": 42,
+      "item": "Green Tea",
+      "chef_name": "Chef Mei",
+      "price": 2.99,
+      "image": "https://example.com/images/green_tea.jpg",
+      "discount": 0,
+      "description": "Japanese green tea brewed to perfection.",
+      "category": "Beverage"
+    },
+    {
+      "id": 43,
+      "item": "Gyoza",
+      "chef_name": "Chef Kenji",
+      "price": 8.99,
+      "image": "https://example.com/images/gyoza.jpg",
+      "discount": 0.05,
+      "description": "Japanese dumplings filled with ground meat and vegetables, pan-fried until crispy.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 44,
+      "item": "Ramen",
+      "chef_name": "Chef Mei",
+      "price": 12.99,
+      "image": "https://example.com/images/ramen.jpg",
+      "discount": 0.1,
+      "description": "Japanese noodle soup with broth, noodles, vegetables, and choice of meat.",
+      "category": "Main Course"
+    },
+    {
+      "id": 45,
+      "item": "Matcha Latte",
+      "chef_name": "Chef Mei",
+      "price": 5.49,
+      "image": "https://example.com/images/matcha_latte.jpg",
+      "discount": 0.05,
+      "description": "Creamy latte made with Japanese matcha green tea and steamed milk.",
+      "category": "Beverage"
+    },
+    {
+      "id": 46,
+      "item": "Edamame",
+      "chef_name": "Chef Kenji",
+      "price": 4.99,
+      "image": "https://example.com/images/edamame.jpg",
+      "discount": 0,
+      "description": "Steamed soybeans seasoned with sea salt.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 47,
+      "item": "Teriyaki Chicken",
+      "chef_name": "Chef Mei",
+      "price": 14.99,
+      "image": "https://example.com/images/teriyaki_chicken.jpg",
+      "discount": 0.1,
+      "description": "Grilled chicken glazed with teriyaki sauce, served with steamed rice and vegetables.",
+      "category": "Main Course"
+    },
+    {
+      "id": 48,
+      "item": "Miso Soup",
+      "chef_name": "Chef Kenji",
+      "price": 3.99,
+      "image": "https://example.com/images/miso_soup.jpg",
+      "discount": 0,
+      "description": "Traditional Japanese soup made with fermented soybean paste, tofu, and seaweed.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 49,
+      "item": "Sake",
+      "chef_name": "Chef Kenji",
+      "price": 6.99,
+      "image": "https://example.com/images/sake.jpg",
+      "discount": 0,
+      "description": "Japanese rice wine served chilled.",
+      "category": "Beverage"
+    },
+    {
+      "id": 50,
+      "item": "Tempura",
+      "chef_name": "Chef Mei",
+      "price": 9.99,
+      "image": "https://example.com/images/tempura.jpg",
+      "discount": 0.05,
+      "description": "Lightly battered and deep-fried seafood and vegetables.",
+      "category": "Appetizer"
+    }
+  ]
 }
