@@ -26,6 +26,7 @@ const Category = () => {
   const Main_Course = menu.filter((item) => item.category === "Main Course");
   const Dessert = menu.filter((item) => item.category === "Dessert");
   const Beverage = menu.filter((item) => item.category === "Beverage");
+  const Pizza = menu.filter((item) => item.category === "Pizza");
 
   return (
     <div>
@@ -38,6 +39,7 @@ const Category = () => {
           <Tab>Main_Course</Tab>
           <Tab>Dessert</Tab>
           <Tab>Beverage</Tab>
+          <Tab>Pizza</Tab>
         </TabList>
         <TabPanel>
           <CategoryTab items={Appetizer}></CategoryTab>
@@ -50,6 +52,9 @@ const Category = () => {
         </TabPanel>
         <TabPanel>
           <CategoryTab items={Beverage}></CategoryTab>
+        </TabPanel>
+        <TabPanel>
+          <CategoryTab items={Pizza}></CategoryTab>
         </TabPanel>
       </Tabs>
     </div>

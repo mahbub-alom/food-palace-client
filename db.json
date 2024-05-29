@@ -5,7 +5,7 @@
       "item": "Caesar Salad",
       "chef_name": "Chef Maria",
       "price": 8.99,
-      "image": "https://example.com/images/caesar_salad.jpg",
+      "image": "https://images.pexels.com/photos/1252841/pexels-photo-1252841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.05,
       "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
       "category": "Appetizer"
@@ -15,17 +15,17 @@
       "item": "Margherita Pizza",
       "chef_name": "Chef Giovanni",
       "price": 12.99,
-      "image": "https://example.com/images/margherita_pizza.jpg",
+      "image": "https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.1,
       "description": "Classic pizza topped with fresh tomatoes, mozzarella, and basil.",
-      "category": "Main Course"
+      "category": "Pizza"
     },
     {
       "id": 3,
       "item": "Spaghetti Carbonara",
       "chef_name": "Chef Luigi",
       "price": 14.49,
-      "image": "https://example.com/images/spaghetti_carbonara.jpg",
+      "image": "https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.15,
       "description": "Spaghetti with creamy egg, cheese, pancetta, and pepper sauce.",
       "category": "Main Course"
@@ -35,7 +35,7 @@
       "item": "Grilled Chicken Sandwich",
       "chef_name": "Chef Alex",
       "price": 10.99,
-      "image": "https://example.com/images/grilled_chicken_sandwich.jpg",
+      "image": "https://images.pexels.com/photos/3682838/pexels-photo-3682838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.2,
       "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo on a toasted bun.",
       "category": "Main Course"
@@ -45,7 +45,7 @@
       "item": "Chocolate Lava Cake",
       "chef_name": "Chef Sophie",
       "price": 6.99,
-      "image": "https://example.com/images/chocolate_lava_cake.jpg",
+      "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.1,
       "description": "Decadent chocolate cake with a molten chocolate center.",
       "category": "Dessert"
@@ -55,7 +55,7 @@
       "item": "Iced Tea",
       "chef_name": "Chef John",
       "price": 2.99,
-      "image": "https://example.com/images/iced_tea.jpg",
+      "image": "https://images.pexels.com/photos/1093015/pexels-photo-1093015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0,
       "description": "Refreshing iced tea brewed with premium tea leaves.",
       "category": "Beverage"
@@ -65,7 +65,7 @@
       "item": "Bruschetta",
       "chef_name": "Chef Maria",
       "price": 6.99,
-      "image": "https://example.com/images/bruschetta.jpg",
+      "image": "https://images.pexels.com/photos/1082343/pexels-photo-1082343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.1,
       "description": "Grilled bread topped with fresh tomatoes, garlic, and basil.",
       "category": "Appetizer"
@@ -75,7 +75,7 @@
       "item": "Lemonade",
       "chef_name": "Chef John",
       "price": 3.49,
-      "image": "https://example.com/images/lemonade.jpg",
+      "image": "https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.05,
       "description": "Refreshing lemonade made with freshly squeezed lemons.",
       "category": "Beverage"
@@ -85,7 +85,7 @@
       "item": "Mushroom Soup",
       "chef_name": "Chef Maria",
       "price": 5.99,
-      "image": "https://example.com/images/mushroom_soup.jpg",
+      "image": "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.1,
       "description": "Creamy mushroom soup garnished with chives.",
       "category": "Appetizer"
@@ -95,7 +95,7 @@
       "item": "Chicken Alfredo",
       "chef_name": "Chef Luigi",
       "price": 16.99,
-      "image": "https://example.com/images/chicken_alfredo.jpg",
+      "image": "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg",
       "discount": 0.15,
       "description": "Fettuccine pasta with grilled chicken in creamy Alfredo sauce.",
       "category": "Main Course"
@@ -105,7 +105,7 @@
       "item": "Tiramisu",
       "chef_name": "Chef Sophie",
       "price": 7.99,
-      "image": "https://example.com/images/tiramisu.jpg",
+      "image": "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg",
       "discount": 0.1,
       "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
       "category": "Dessert"
