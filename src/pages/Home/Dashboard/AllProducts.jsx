@@ -30,6 +30,8 @@ const AllProducts = () => {
               icon: "success",
             });
           }
+          const remaining = data.filter((item) => item.id !== id);
+          setData(remaining);
         });
       }
     });
@@ -80,8 +82,7 @@ const AllProducts = () => {
                   >
                     Delete
                   </button>
-
-                  <Link to="">
+                  <Link to={`/dashboard/detailsPage/${item?.id}`}>
                     <button className="btn btn-accent btn-xs">Details</button>
                   </Link>
                 </th>

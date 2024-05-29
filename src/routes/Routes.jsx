@@ -9,6 +9,7 @@ import AllProducts from "../pages/Home/Dashboard/AllProducts";
 import User from "../pages/Home/Dashboard/User";
 import Update from "../pages/Home/Dashboard/Update";
 import AddProducts from "../pages/Home/Dashboard/AddProducts";
+import DetailsPage from "../pages/Home/Dashboard/DetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -48,14 +49,17 @@ const router = createBrowserRouter([
       {
         path: "EditProduct/:id",
         element: <Update />,
-        loader: ({ params }) =>
-          fetch(`http://localhost:3000/menu/${params.id}`),
+        // loader: ({ params }) =>
+        //   fetch(`http://localhost:3000/menu/${params.id}`),
       },
       {
-        path:"AddProducts",
-        element:<AddProducts/>
-
-      }
+        path: "AddProducts",
+        element: <AddProducts />,
+      },
+      {
+        path: "detailsPage/:id",
+        element: <DetailsPage />,
+      },
     ],
   },
 ]);
