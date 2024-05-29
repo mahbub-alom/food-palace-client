@@ -22,7 +22,7 @@ const AllProducts = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        const res = axios.delete(`http://localhost:3000/menu/${id}`);
+        axios.delete(`http://localhost:3000/menu/${id}`);
         // if (res.data.deletedCount > 0) {
         //   Swal.fire({
         //     title: "Deleted!",
@@ -30,7 +30,7 @@ const AllProducts = () => {
         //     icon: "success",
         //   });
         // }
-        console.log(res);
+        
       }
     });
   };

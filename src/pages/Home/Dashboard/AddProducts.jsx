@@ -1,30 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React from "react";
+
 import SectionTitles from "../../Shared/SectionTitles";
 import { ImSpoonKnife } from "react-icons/im";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const Update = () => {
-  const [data, setData] = useState([]);
-  const {
-    category,
-    description,
-    image,
-    price,
-    chef_name,
-    item,
-    id: ids,
-  } = data;
-  const { id } = useParams();
-  useEffect(() => {
-    fetch(`http://localhost:3000/menu/${id}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-      });
-  }, [id]);
-
+const AddProducts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -154,4 +135,4 @@ const Update = () => {
   );
 };
 
-export default Update;
+export default AddProducts;

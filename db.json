@@ -1,16 +1,6 @@
 {
   "menu": [
     {
-      "id": "1",
-      "item": "Caesar Salad",
-      "chef_name": "Chef Maria",
-      "price": 8.99,
-      "image": "https://images.pexels.com/photos/1252841/pexels-photo-1252841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "discount": 0.05,
-      "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
-      "category": "Appetizer"
-    },
-    {
       "id": "2",
       "item": "Margherita Pizza",
       "chef_name": "Chef Giovanni",
@@ -43,12 +33,12 @@
     {
       "id": "5",
       "item": "Chocolate Lava Cake",
-      "chef_name": "Chef Sophie",
-      "price": 6.99,
+      "chef_name": "Chef Sophie jon",
+      "price": "6.99",
       "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.1,
       "description": "Decadent chocolate cake with a molten chocolate center.",
-      "category": "Dessert"
+      "category": "Pizza"
     },
     {
       "id": "6",
@@ -441,16 +431,6 @@
       "category": "Main Course"
     },
     {
-      "id": "45",
-      "item": "Matcha Latte",
-      "chef_name": "Chef Mei",
-      "price": 5.49,
-      "image": "https://example.com/images/matcha_latte.jpg",
-      "discount": 0.05,
-      "description": "Creamy latte made with Japanese matcha green tea and steamed milk.",
-      "category": "Beverage"
-    },
-    {
       "id": "46",
       "item": "Edamame",
       "chef_name": "Chef Kenji",
@@ -461,16 +441,6 @@
       "category": "Appetizer"
     },
     {
-      "id": "47",
-      "item": "Teriyaki Chicken",
-      "chef_name": "Chef Mei",
-      "price": 14.99,
-      "image": "https://example.com/images/teriyaki_chicken.jpg",
-      "discount": 0.1,
-      "description": "Grilled chicken glazed with teriyaki sauce, served with steamed rice and vegetables.",
-      "category": "Main Course"
-    },
-    {
       "id": "48",
       "item": "Miso Soup",
       "chef_name": "Chef Kenji",
@@ -478,26 +448,6 @@
       "image": "https://example.com/images/miso_soup.jpg",
       "discount": 0,
       "description": "Traditional Japanese soup made with fermented soybean paste, tofu, and seaweed.",
-      "category": "Appetizer"
-    },
-    {
-      "id": "49",
-      "item": "Sake",
-      "chef_name": "Chef Kenji",
-      "price": 6.99,
-      "image": "https://example.com/images/sake.jpg",
-      "discount": 0,
-      "description": "Japanese rice wine served chilled.",
-      "category": "Beverage"
-    },
-    {
-      "id": "50",
-      "item": "Tempura",
-      "chef_name": "Chef Mei",
-      "price": 9.99,
-      "image": "https://example.com/images/tempura.jpg",
-      "discount": 0.05,
-      "description": "Lightly battered and deep-fried seafood and vegetables.",
       "category": "Appetizer"
     }
   ]
