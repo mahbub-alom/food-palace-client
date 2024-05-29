@@ -391,16 +391,6 @@
       "category": "Appetizer"
     },
     {
-      "id": "41",
-      "item": "Sushi Platter",
-      "chef_name": "Chef Kenji",
-      "price": 18.99,
-      "image": "https://example.com/images/sushi_platter.jpg",
-      "discount": 0.1,
-      "description": "Assorted sushi rolls including California, spicy tuna, and salmon avocado.",
-      "category": "Main Course"
-    },
-    {
       "id": "42",
       "item": "Green Tea",
       "chef_name": "Chef Mei",
@@ -449,6 +439,26 @@
       "discount": 0,
       "description": "Traditional Japanese soup made with fermented soybean paste, tofu, and seaweed.",
       "category": "Appetizer"
+    },
+    {
+      "id": "50",
+      "item": "Grilled Chicken Sandwich",
+      "chef_name": "towsif",
+      "category": "Main_Course",
+      "discount": "1",
+      "price": "20",
+      "description": "it's very tasty",
+      "image": "https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "50",
+      "item": "Grilled Chicken Sandwich",
+      "chef_name": "towsif",
+      "category": "Main_Course",
+      "discount": "1",
+      "price": "20",
+      "description": "it's very tasty",
+      "image": "https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
 }

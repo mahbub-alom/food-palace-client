@@ -146,7 +146,7 @@ const Update = () => {
             <div className="label"></div>
           </label>
           <button className="btn">
-            Add Item <ImSpoonKnife />
+            Update Item <ImSpoonKnife />
           </button>
         </form>
       </div>

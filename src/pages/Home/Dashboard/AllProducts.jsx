@@ -22,15 +22,15 @@ const AllProducts = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        axios.delete(`http://localhost:3000/menu/${id}`);
-        // if (res.data.deletedCount > 0) {
-        //   Swal.fire({
-        //     title: "Deleted!",
-        //     text: "Your file has been deleted.",
-        //     icon: "success",
-        //   });
-        // }
-        
+        axios.delete(`http://localhost:3000/menu/${id}`).then((data) => {
+          if (data.status === 200) {
+            Swal.fire({
+              title: "Deleted!",
+              text: "Your file has been deleted.",
+              icon: "success",
+            });
+          }
+        });
       }
     });
   };
