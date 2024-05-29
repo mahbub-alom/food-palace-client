@@ -1,13 +1,67 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
+  "restaurant_name": "Gourmet Bistro",
+  "menu": {
+    "Appetizer": [
+      {
+        "id": 1,
+        "item": "Caesar Salad",
+        "chef_name": "Chef Maria",
+        "price": 8.99,
+        "image": "https://example.com/images/caesar_salad.jpg",
+        "discount": 0.05,
+        "description": "Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese."
+      }
     ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    "Main Course": [
+      {
+        "id": 2,
+        "item": "Margherita Pizza",
+        "chef_name": "Chef Giovanni",
+        "price": 12.99,
+        "image": "https://example.com/images/margherita_pizza.jpg",
+        "discount": 0.1,
+        "description": "Classic pizza topped with fresh tomatoes, mozzarella, and basil."
+      },
+      {
+        "id": 3,
+        "item": "Spaghetti Carbonara",
+        "chef_name": "Chef Luigi",
+        "price": 14.49,
+        "image": "https://example.com/images/spaghetti_carbonara.jpg",
+        "discount": 0.15,
+        "description": "Spaghetti with creamy egg, cheese, pancetta, and pepper sauce."
+      },
+      {
+        "id": 4,
+        "item": "Grilled Chicken Sandwich",
+        "chef_name": "Chef Alex",
+        "price": 10.99,
+        "image": "https://example.com/images/grilled_chicken_sandwich.jpg",
+        "discount": 0.2,
+        "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo on a toasted bun."
+      }
     ],
-    "profile": {
-      "name": "typicode"
-    }
+    "Dessert": [
+      {
+        "id": 5,
+        "item": "Chocolate Lava Cake",
+        "chef_name": "Chef Sophie",
+        "price": 6.99,
+        "image": "https://example.com/images/chocolate_lava_cake.jpg",
+        "discount": 0.1,
+        "description": "Decadent chocolate cake with a molten chocolate center."
+      }
+    ],
+    "Beverage": [
+      {
+        "id": 6,
+        "item": "Iced Tea",
+        "chef_name": "Chef John",
+        "price": 2.99,
+        "image": "https://example.com/images/iced_tea.jpg",
+        "discount": 0,
+        "description": "Refreshing iced tea brewed with premium tea leaves."
+      }
+    ]
   }
+}
