@@ -7,6 +7,7 @@ import Category from "../pages/Home/Home/Category";
 import Dashboard from "../Layout/Main/Dashboard";
 import AllProducts from "../pages/Home/Dashboard/AllProducts";
 import User from "../pages/Home/Dashboard/User";
+import Update from "../pages/Home/Dashboard/Update";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,12 @@ const router = createBrowserRouter([
       {
         path: "users",
         element: <User />,
+      },
+      {
+        path: "EditProduct/:id",
+        element: <Update />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3000/menu/${params.id}`),
       },
     ],
   },

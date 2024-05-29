@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "id": 1,
+      "id": "1",
       "item": "Caesar Salad",
       "chef_name": "Chef Maria",
       "price": 8.99,
@@ -11,7 +11,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 2,
+      "id": "2",
       "item": "Margherita Pizza",
       "chef_name": "Chef Giovanni",
       "price": 12.99,
@@ -21,7 +21,7 @@
       "category": "Pizza"
     },
     {
-      "id": 3,
+      "id": "3",
       "item": "Spaghetti Carbonara",
       "chef_name": "Chef Luigi",
       "price": 14.49,
@@ -31,17 +31,17 @@
       "category": "Main Course"
     },
     {
-      "id": 4,
-      "item": "Grilled Chicken Sandwich",
-      "chef_name": "Chef Alex",
-      "price": 10.99,
+      "id": "4",
+      "item": "Grilled Chicken Sandwich 23",
+      "chef_name": "Chef Alexa",
+      "price": "10.99",
       "image": "https://images.pexels.com/photos/3682838/pexels-photo-3682838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "discount": 0.2,
       "description": "Juicy grilled chicken breast with lettuce, tomato, and mayo on a toasted bun.",
-      "category": "Main Course"
+      "category": "Pizza"
     },
     {
-      "id": 5,
+      "id": "5",
       "item": "Chocolate Lava Cake",
       "chef_name": "Chef Sophie",
       "price": 6.99,
@@ -51,7 +51,7 @@
       "category": "Dessert"
     },
     {
-      "id": 6,
+      "id": "6",
       "item": "Iced Tea",
       "chef_name": "Chef John",
       "price": 2.99,
@@ -61,7 +61,7 @@
       "category": "Beverage"
     },
     {
-      "id": 7,
+      "id": "7",
       "item": "Bruschetta",
       "chef_name": "Chef Maria",
       "price": 6.99,
@@ -71,7 +71,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 8,
+      "id": "8",
       "item": "Lemonade",
       "chef_name": "Chef John",
       "price": 3.49,
@@ -81,7 +81,7 @@
       "category": "Beverage"
     },
     {
-      "id": 9,
+      "id": "9",
       "item": "Mushroom Soup",
       "chef_name": "Chef Maria",
       "price": 5.99,
@@ -91,7 +91,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 10,
+      "id": "10",
       "item": "Chicken Alfredo",
       "chef_name": "Chef Luigi",
       "price": 16.99,
@@ -101,7 +101,7 @@
       "category": "Main Course"
     },
     {
-      "id": 11,
+      "id": "11",
       "item": "Tiramisu",
       "chef_name": "Chef Sophie",
       "price": 7.99,
@@ -111,7 +111,7 @@
       "category": "Dessert"
     },
     {
-      "id": 12,
+      "id": "12",
       "item": "Cappuccino",
       "chef_name": "Chef Maria",
       "price": 4.99,
@@ -121,7 +121,7 @@
       "category": "Beverage"
     },
     {
-      "id": 13,
+      "id": "13",
       "item": "Caprese Salad",
       "chef_name": "Chef Giovanni",
       "price": 9.99,
@@ -131,7 +131,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 14,
+      "id": "14",
       "item": "Pesto Pasta",
       "chef_name": "Chef Luigi",
       "price": 13.99,
@@ -141,7 +141,7 @@
       "category": "Main Course"
     },
     {
-      "id": 15,
+      "id": "15",
       "item": "Cheesecake",
       "chef_name": "Chef Sophie",
       "price": 8.99,
@@ -151,7 +151,7 @@
       "category": "Dessert"
     },
     {
-      "id": 16,
+      "id": "16",
       "item": "Mojito",
       "chef_name": "Chef John",
       "price": 7.49,
@@ -161,7 +161,7 @@
       "category": "Beverage"
     },
     {
-      "id": 17,
+      "id": "17",
       "item": "Spinach Artichoke Dip",
       "chef_name": "Chef Maria",
       "price": 7.99,
@@ -171,7 +171,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 18,
+      "id": "18",
       "item": "Beef Burger",
       "chef_name": "Chef Alex",
       "price": 11.99,
@@ -181,7 +181,7 @@
       "category": "Main Course"
     },
     {
-      "id": 19,
+      "id": "19",
       "item": "Key Lime Pie",
       "chef_name": "Chef Sophie",
       "price": 6.99,
@@ -191,7 +191,7 @@
       "category": "Dessert"
     },
     {
-      "id": 20,
+      "id": "20",
       "item": "Margarita",
       "chef_name": "Chef John",
       "price": 8.49,
@@ -201,7 +201,7 @@
       "category": "Beverage"
     },
     {
-      "id": 21,
+      "id": "21",
       "item": "Garlic Bread",
       "chef_name": "Chef Maria",
       "price": 4.99,
@@ -211,7 +211,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 22,
+      "id": "22",
       "item": "Beef Lasagna",
       "chef_name": "Chef Giovanni",
       "price": 15.99,
@@ -221,7 +221,7 @@
       "category": "Main Course"
     },
     {
-      "id": 23,
+      "id": "23",
       "item": "Apple Pie",
       "chef_name": "Chef Sophie",
       "price": 7.49,
@@ -231,7 +231,7 @@
       "category": "Dessert"
     },
     {
-      "id": 24,
+      "id": "24",
       "item": "Cranberry Spritzer",
       "chef_name": "Chef John",
       "price": 3.99,
@@ -241,7 +241,7 @@
       "category": "Beverage"
     },
     {
-      "id": 25,
+      "id": "25",
       "item": "Stuffed Mushrooms",
       "chef_name": "Chef Maria",
       "price": 6.49,
@@ -251,7 +251,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 26,
+      "id": "26",
       "item": "Beef Stroganoff",
       "chef_name": "Chef Luigi",
       "price": 17.49,
@@ -261,7 +261,7 @@
       "category": "Main Course"
     },
     {
-      "id": 27,
+      "id": "27",
       "item": "Banoffee Pie",
       "chef_name": "Chef Sophie",
       "price": 8.99,
@@ -271,7 +271,7 @@
       "category": "Dessert"
     },
     {
-      "id": 28,
+      "id": "28",
       "item": "Orange Juice",
       "chef_name": "Chef John",
       "price": 3.49,
@@ -281,7 +281,7 @@
       "category": "Beverage"
     },
     {
-      "id": 29,
+      "id": "29",
       "item": "Garlic Knots",
       "chef_name": "Chef Maria",
       "price": 5.99,
@@ -291,7 +291,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 30,
+      "id": "30",
       "item": "Chicken Parmesan",
       "chef_name": "Chef Giovanni",
       "price": 16.99,
@@ -301,7 +301,7 @@
       "category": "Main Course"
     },
     {
-      "id": 31,
+      "id": "31",
       "item": "Panna Cotta",
       "chef_name": "Chef Sophie",
       "price": 7.49,
@@ -311,7 +311,7 @@
       "category": "Dessert"
     },
     {
-      "id": 32,
+      "id": "32",
       "item": "Hot Chocolate",
       "chef_name": "Chef Maria",
       "price": 4.99,
@@ -321,7 +321,7 @@
       "category": "Beverage"
     },
     {
-      "id": 33,
+      "id": "33",
       "item": "Crispy Calamari",
       "chef_name": "Chef Maria",
       "price": 9.99,
@@ -331,7 +331,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 34,
+      "id": "34",
       "item": "Beef Wellington",
       "chef_name": "Chef Alex",
       "price": 19.99,
@@ -341,7 +341,7 @@
       "category": "Main Course"
     },
     {
-      "id": 35,
+      "id": "35",
       "item": "Banana Split",
       "chef_name": "Chef Sophie",
       "price": 8.49,
@@ -351,7 +351,7 @@
       "category": "Dessert"
     },
     {
-      "id": 36,
+      "id": "36",
       "item": "Mojito",
       "chef_name": "Chef John",
       "price": 7.49,
@@ -361,7 +361,7 @@
       "category": "Beverage"
     },
     {
-      "id": 37,
+      "id": "37",
       "item": "Stuffed Jalapenos",
       "chef_name": "Chef Maria",
       "price": 6.99,
@@ -371,7 +371,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 38,
+      "id": "38",
       "item": "Chicken Tikka Masala",
       "chef_name": "Chef Raj",
       "price": 15.99,
@@ -381,7 +381,7 @@
       "category": "Main Course"
     },
     {
-      "id": 39,
+      "id": "39",
       "item": "Mango Lassi",
       "chef_name": "Chef Priya",
       "price": 4.99,
@@ -391,7 +391,7 @@
       "category": "Beverage"
     },
     {
-      "id": 40,
+      "id": "40",
       "item": "Spring Rolls",
       "chef_name": "Chef Mei",
       "price": 7.49,
@@ -401,7 +401,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 41,
+      "id": "41",
       "item": "Sushi Platter",
       "chef_name": "Chef Kenji",
       "price": 18.99,
@@ -411,7 +411,7 @@
       "category": "Main Course"
     },
     {
-      "id": 42,
+      "id": "42",
       "item": "Green Tea",
       "chef_name": "Chef Mei",
       "price": 2.99,
@@ -421,7 +421,7 @@
       "category": "Beverage"
     },
     {
-      "id": 43,
+      "id": "43",
       "item": "Gyoza",
       "chef_name": "Chef Kenji",
       "price": 8.99,
@@ -431,7 +431,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 44,
+      "id": "44",
       "item": "Ramen",
       "chef_name": "Chef Mei",
       "price": 12.99,
@@ -441,7 +441,7 @@
       "category": "Main Course"
     },
     {
-      "id": 45,
+      "id": "45",
       "item": "Matcha Latte",
       "chef_name": "Chef Mei",
       "price": 5.49,
@@ -451,7 +451,7 @@
       "category": "Beverage"
     },
     {
-      "id": 46,
+      "id": "46",
       "item": "Edamame",
       "chef_name": "Chef Kenji",
       "price": 4.99,
@@ -461,7 +461,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 47,
+      "id": "47",
       "item": "Teriyaki Chicken",
       "chef_name": "Chef Mei",
       "price": 14.99,
@@ -471,7 +471,7 @@
       "category": "Main Course"
     },
     {
-      "id": 48,
+      "id": "48",
       "item": "Miso Soup",
       "chef_name": "Chef Kenji",
       "price": 3.99,
@@ -481,7 +481,7 @@
       "category": "Appetizer"
     },
     {
-      "id": 49,
+      "id": "49",
       "item": "Sake",
       "chef_name": "Chef Kenji",
       "price": 6.99,
@@ -491,7 +491,7 @@
       "category": "Beverage"
     },
     {
-      "id": 50,
+      "id": "50",
       "item": "Tempura",
       "chef_name": "Chef Mei",
       "price": 9.99,
