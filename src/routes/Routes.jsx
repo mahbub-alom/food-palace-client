@@ -4,6 +4,9 @@ import Home from "../pages/Home/Home/Home";
 import Login from "../pages/Shared/Login";
 import Register from "../pages/Shared/Register";
 import Category from "../pages/Home/Home/Category";
+import Dashboard from "../Layout/Main/Dashboard";
+import AllProducts from "../pages/Home/Dashboard/AllProducts";
+import User from "../pages/Home/Dashboard/User";
 
 const router = createBrowserRouter([
   {
@@ -23,9 +26,23 @@ const router = createBrowserRouter([
         element: <Register />,
       },
       {
-        path:"/category/:category",
-        element:<Category></Category>
-      }
+        path: "/category/:category",
+        element: <Category></Category>,
+      },
+    ],
+  },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+    children: [
+      {
+        path: "AllProducts",
+        element: <AllProducts />,
+      },
+      {
+        path: "users",
+        element: <User />,
+      },
     ],
   },
 ]);
